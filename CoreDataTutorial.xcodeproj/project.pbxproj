@@ -22,6 +22,8 @@
 		BC5E40F7189C691500D98A42 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5E40DB189C691400D98A42 /* CoreData.framework */; };
 		BC5E40FF189C691500D98A42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC5E40FD189C691500D98A42 /* InfoPlist.strings */; };
 		BC5E4101189C691500D98A42 /* CoreDataTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5E4100189C691500D98A42 /* CoreDataTutorialTests.m */; };
+		BC5E410B189C6A3100D98A42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5E410A189C6A3100D98A42 /* Main.storyboard */; };
+		BC5E4111189C6DA600D98A42 /* CoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5E4110189C6DA600D98A42 /* CoreDataViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		BC5E40FC189C691500D98A42 /* CoreDataTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataTutorialTests-Info.plist"; sourceTree = "<group>"; };
 		BC5E40FE189C691500D98A42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BC5E4100189C691500D98A42 /* CoreDataTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataTutorialTests.m; sourceTree = "<group>"; };
+		BC5E410A189C6A3100D98A42 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BC5E410F189C6DA600D98A42 /* CoreDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataViewController.h; path = ../CoreDataViewController.h; sourceTree = "<group>"; };
+		BC5E4110189C6DA600D98A42 /* CoreDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataViewController.m; path = ../CoreDataViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +120,13 @@
 		BC5E40DD189C691400D98A42 /* CoreDataTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				BC5E410F189C6DA600D98A42 /* CoreDataViewController.h */,
+				BC5E4110189C6DA600D98A42 /* CoreDataViewController.m */,
 				BC5E40E6189C691500D98A42 /* calpolyAppDelegate.h */,
 				BC5E40E7189C691500D98A42 /* calpolyAppDelegate.m */,
 				BC5E40EC189C691500D98A42 /* Images.xcassets */,
 				BC5E40E9189C691500D98A42 /* CoreDataTutorial.xcdatamodeld */,
+				BC5E410A189C6A3100D98A42 /* Main.storyboard */,
 				BC5E40DE189C691400D98A42 /* Supporting Files */,
 			);
 			path = CoreDataTutorial;
@@ -229,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC5E410B189C6A3100D98A42 /* Main.storyboard in Resources */,
 				BC5E40E2189C691400D98A42 /* InfoPlist.strings in Resources */,
 				BC5E40ED189C691500D98A42 /* Images.xcassets in Resources */,
 			);
@@ -250,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC5E40E4189C691400D98A42 /* main.m in Sources */,
+				BC5E4111189C6DA600D98A42 /* CoreDataViewController.m in Sources */,
 				BC5E40E8189C691500D98A42 /* calpolyAppDelegate.m in Sources */,
 				BC5E40EB189C691500D98A42 /* CoreDataTutorial.xcdatamodeld in Sources */,
 			);
